@@ -19,9 +19,15 @@ body{
     flex-wrap: wrap;
 }
 .win{
-    background: pink;
+    background-image: url('https://cdn.discordapp.com/attachments/526567429363597345/674853962519805952/kiwi1.jpg');
+    /* background: pink; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     border-radius: 50%;
     transform: rotate(360deg);
+    color: white;
+    vertical-align: buttom;
+    display: table-cell;
 }
 .lose{
     transform: scale(0.9);
