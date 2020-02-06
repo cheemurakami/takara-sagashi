@@ -28,7 +28,12 @@ body{
     color: white;
     vertical-align: buttom;
     display: table-cell;
+    transform: rotate(360deg);
 }
+.winLetter{
+    margin-top: 10px;
+}
+
 .lose{
     transform: scale(0.9);
 }

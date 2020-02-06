@@ -25,7 +25,10 @@ for (let i = 0; i < num; i++){
     div.addEventListener('click', () => {
     // div.classList.toggle('circle');
     if (i === winner){
-        div.textContent = 'Win!';
+        const winTxtBox = document.createElement('div');
+        winTxtBox.textContent = 'Win!';
+        div.appendChild(winTxtBox);
+        winTxtBox.classList.add('winLetter');
         div.classList.add('win');
     } else {
         div.textContent = 'Lose!';
